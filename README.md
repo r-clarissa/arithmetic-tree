@@ -18,11 +18,9 @@ This project is a calculator which is built through flex-lex and bison-yacc. It 
 ```
 
 ### Specifications
-* positive and non-negative numbers are accepted
-* sub-expressions are grouped in pairs using parenthesis
 * left-associative rules are applied on the 4 basic arithmetic operations: add, sub, mul, div
-* exponentiation through caret symbol (^) is right-associative
-* storage using one letter variable names and multiple assignments are allowed
+* right-associative rule is applied with exponentiation (^) 
+* storage using one letter variable names and multiple assignments are permitted
 
 ### Built With
 * Flex
@@ -52,4 +50,4 @@ gcc calc.tab.c -o -lfl
 ```
 
 # Special Note
-This is a school project where functionalities are specified by the UPLB - ICS. To prohibit any undesired academic matters, the complete source code is located on another private repository. You may email me at cgrodriguez@up.edu.ph if you have any questions given that the purpose is validated.
+This is a school project where functionalities are specified by the university. To prohibit any undesired academic matters, the complete source code is located on another private repository. You may email me at cgrodriguez@up.edu.ph if you have any questions given that the purpose is validated.
