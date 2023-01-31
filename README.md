@@ -1,5 +1,5 @@
 # About The Project
-This project is a calculator which is built through flex-lex and bison-yacc. It implements the following: 
+This project is a parse tree-based calculator which is built through flex-lex and bison-yacc. It implements the following: 
 - accepts integer and floating-point values
 - allows simple floating point calculations
 - outputs results based on PEMDAS
@@ -38,7 +38,7 @@ To get a local copy up and running, kindly follow these steps.
 1. Install `Flex` and `Bison` on the GNU32 website.
 2. Clone the repo
 ```
-git clone https://github.com/r-clarissa/flex-bison-arithmetic.git
+git clone https://github.com/r-clarissa/arithmetic-tree.git
 ```
 4. Find and change your terminal path where the cloned folder on your local directory is found.
 5. On your terminal, run the following:
