@@ -20,7 +20,7 @@ This project is a calculator which is built through flex-lex and bison-yacc. It 
 ### Specifications
 * left-associative rules are applied on the 4 basic arithmetic operations: add, sub, mul, div
 * right-associative rule is applied with exponentiation (^) 
-* storage using one letter variable names and multiple assignments are permitted
+* storage using one letter variable names and multiple assignments is permitted
 
 ### Built With
 * Flex
